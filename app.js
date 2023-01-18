@@ -29,11 +29,6 @@ app.use(cookieParser(" "));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); //form
 
-//email:rafly@gmail.com
-//password:12345
-
-//NULL
-
 //middle-ware mengatur public
 app.use(express.static("public"));
 
